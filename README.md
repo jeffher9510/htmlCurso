@@ -1,2 +1,2 @@
 # html
-curso html -css
+curso html -css do CursoemVideo
