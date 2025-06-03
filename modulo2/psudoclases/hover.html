@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        div:hover {
+            color: blue;
+        }
+
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            background-color: rgb(0, 0, 0);
+            color: #fff;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>Passe o mouse soubre o texto para ativar o hover</p>
+    <div>
+        HOVER aqui mesmo
+        <p>texto escondido</p>
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod tempora culpa hic nisi ad? In, vero laudantium. Repellendus tenetur, sed excepturi provident labore porro, culpa vero aspernatur in, veritatis recusandae.</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Teste abrir as imagenes en varios dispositivos ou aumnete o tamanho da pagina</p>
+    
+    
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/mountain_p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="img/mountain_m.jpg" type="image/jpg">
+        <img src="img/mountain_g.jpg" alt="imagem flexivel">
+    </picture>
+
+    <h1>Audio</h1>
+    <p>Vamos reproducir um audio</p>
+    <!--<audio src="../midia/sound.mp3" controls autoplay></audio>-->
+    <audio preload="none"  controls>
+        <source src="../midia/sound.mp3" type="audio/mpeg">
+        <source src="../midia/sound.ogg" type="audio/ogg">
+        <source src="../midia/sound.wac" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproducir o audio. <a href="../midia/sound.mp3">baixe o audio aqui</a>
+    </audio>
+</body>
+</html> 
